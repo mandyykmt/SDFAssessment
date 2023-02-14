@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Main {
 
     public static String dirName = "Task02";
-    
     public static String dirFileName = dirName + File.separator;
 
     public static void main(String[] args) {
@@ -38,21 +37,18 @@ public class Main {
 
         // assign a number to each unique word
 
-        // store the maximum number of unique words as an int max
-
         // use a loop function to count
-        // for (int i = 1; i <= max; i++) {
+        // for (int i = 1; i <= array.length; i++) {
         //     System.out.println(); // print word corresponding to i
         //     for ()
         //         System.out.println("tab_word_count"); 
     
-    }
-
-        
-
-        // System.out.print(dirFileName); 
-        
+    }        
 }
+
+//   THE END  
+
+
 
 //     public static void main(String[] args)  {
 
