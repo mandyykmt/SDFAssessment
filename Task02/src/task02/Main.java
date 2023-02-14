@@ -28,6 +28,7 @@ public class Main {
         // prompt user to select file 
         Scanner fileNumber = new Scanner(System.in); 
         System.out.print("Please select file (e.g 1 ): "); 
+        int selectedFile = fileNumber.nextInt(); 
 
         // remove all punctuations of selected file and replace with a space
 
@@ -40,17 +41,18 @@ public class Main {
         // store the maximum number of unique words as an int max
 
         // use a loop function to count
-        for (int i = 1; i <= max; i++) {
-            System.out.println(); // print word corresponding to i
-            for ()
-                System.out.println("tab_word_count"); 
-        }
+        // for (int i = 1; i <= max; i++) {
+        //     System.out.println(); // print word corresponding to i
+        //     for ()
+        //         System.out.println("tab_word_count"); 
+    
+    }
 
         
 
         // System.out.print(dirFileName); 
         
-    }
+}
 
 //     public static void main(String[] args)  {
 
@@ -164,5 +166,3 @@ public class Main {
 
 //     public static void message(String line) {
 //         System.out.println(line);
-    
-}
